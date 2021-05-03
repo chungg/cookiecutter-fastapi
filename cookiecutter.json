@@ -1,0 +1,6 @@
+{
+    "project_slug": "proj",
+    "_copy_without_render": [
+	"*.mjml"
+    ]
+}
