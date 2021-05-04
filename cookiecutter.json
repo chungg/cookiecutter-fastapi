@@ -1,5 +1,6 @@
 {
     "project_slug": "proj",
+    "project_author": "your name",
     "_copy_without_render": [
 	"*.mjml"
     ]
