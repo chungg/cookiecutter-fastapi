@@ -23,7 +23,10 @@ Run tests::
 
     tox
 
+Run migrations::
 
-Start server::
+    python manage.py migrate
 
-    uvicorn {{cookiecutter.project_slug}}.main:app --host 0.0.0.0 --port 8080
+Start server (using uvicorn)::
+
+    python manage.py runserver --host 0.0.0.0 --port 8080
